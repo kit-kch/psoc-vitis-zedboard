@@ -1,0 +1,3 @@
+C:/Users/nq5949/Documents/vitis6/psoc_platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+C:/Users/nq5949/Documents/vitis6/psoc_platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+C:/Users/nq5949/Documents/vitis6/psoc_platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
