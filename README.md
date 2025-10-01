@@ -29,7 +29,7 @@ Finally, press `Create Image` and wait for the process to finish.
 ## Flashing the SPI Flash
 
 In Vitis, run `Vitis` → `Program Flash`.
-Kepp all settings as is.
+Keep all settings as is.
 For `Image File`, select the `BOOT.bin` you created in the previous step (or download one from the releases here).
 It's probably best to check `Verify after flash`.
 Finally click `Program` and wait for the process to finish.
