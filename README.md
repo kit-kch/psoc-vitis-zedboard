@@ -31,7 +31,8 @@ Finally, press `Create Image` and wait for the process to finish.
 In Vitis, run `Vitis` → `Program Flash`.
 Keep all settings as is.
 For `Image File`, select the `BOOT.bin` you created in the previous step (or download one from the releases here).
-It's probably best to check `Verify after flash`.
+For `Iniit File` you should select `psoc_platform\zynq_fsbl\build\fsbl.elf` from your workspace folder.
+It's probably best to check `Verify after flash` as well.
 Finally click `Program` and wait for the process to finish.
 
 Note: Manuals say you should set the jumpers to JTAG mode (Set `MIO2`-`MIO6` to `GND`) for flashing.
@@ -39,7 +40,7 @@ Note: Manuals say you should set the jumpers to JTAG mode (Set `MIO2`-`MIO6` to 
 ## Configuring the ZedBoard
 
 After you flashed the QSPI flash, you have to set the jumpers correctly to make the ZedBoard boot from SPI flash.
-Set `MIO5` to `3V3` and `MIO6` as well as `MIO2`-`MIO4` to `GND`.
+Set `MIO5` to `3V3`. `MIO6` and `MIO2`-`MIO4` should all be set to `GND`.
 
 When you now power-on the Board, you should see the FPGA getting configured, the `DONE` Led signalling that programming was ok and the `LD9` led blinking to show that the `hello_world` code is running on the PS.
 
