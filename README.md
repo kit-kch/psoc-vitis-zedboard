@@ -1,7 +1,9 @@
 # PSoC ZedBoard Vitis Project
 
 This repository contains a Vitis project for the [psoc-soc](https://github.com/kit-kch/psoc-soc) Xilinx bitstream.
-Whereas the bitstream can be directly programmed using JTAG, when you want to load it from SD card or the SPI flash on the Zedboard, you need Vitis.
+Whereas the bitstream can be directly programmed using JTAG, when you want to load it from SD card or the SPI flash on the Zedboard, you'll have to use Vitis.
+
+![Zedboard with PSoC FMC PCB](zedboard_psoc.jpg)
 
 ## Updating the FPGA Bitstream
 
